@@ -1,0 +1,243 @@
+.elementor-16535 .elementor-element.elementor-element-05931a4:not(.elementor-motion-effects-element-type-background),
+.elementor-16535 .elementor-element.elementor-element-05931a4>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var( --e-global-color-primary);
+}
+
+.elementor-16535 .elementor-element.elementor-element-05931a4 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-16535 .elementor-element.elementor-element-05931a4>.elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-16535 .elementor-element.elementor-element-4d245ed {
+    padding: 100px 0px 100px 0px;
+}
+
+#elementor-popup-modal-16535 .dialog-message {
+    width: 980px;
+    height: auto;
+}
+
+#elementor-popup-modal-16535 {
+    justify-content: center;
+    align-items: center;
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#elementor-popup-modal-16535 .dialog-close-button {
+    display: flex;
+    font-size: 35px;
+}
+
+#elementor-popup-modal-16535 .dialog-widget-content {
+    animation-duration: 1.2s;
+    box-shadow: 2px 8px 23px 3px rgba(0, 0, 0, 0.2);
+}
+
+#elementor-popup-modal-16535 .dialog-close-button i {
+    color: #FFFFFF;
+}
+
+#elementor-popup-modal-16535 .dialog-close-button svg {
+    fill: #FFFFFF;
+}
+
+/* Start custom CSS for html, class: .elementor-element-3a21974 */
+
+.container-estimate {
+    text-align: center;
+}
+
+.estimate {
+    padding: 0;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 2.8rem;
+    letter-spacing: -0.02em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.spanned-estimate {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(64, 237, 195, 1) 0%, rgba(211, 248, 154, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    line-height: 1.3em;
+    border-bottom: 1px dashed rgba(211, 248, 154, 1);
+}
+
+.spanned-child {
+    position: absolute;
+    z-index: 1111;
+    top: 100%;
+    left: 50%;
+    cursor: auto;
+    transition: 100ms;
+}
+
+.spanned-child[aria-expanded="false"] {
+    height: 0%;
+    transform: scaleY(0);
+    animation: fadeOut 500ms;
+}
+
+.spanned-child[aria-expanded="true"] {
+    height: 100%;
+    transform: scaleY(1);
+    transform: translateX(-50%);
+    animation: fadeIn 500ms;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.spanned-child-ul {
+    list-style: none;
+    padding: 0;
+    min-width: 200px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.spanned-child-ul>.client:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.client {
+    background-color: #000;
+    -webkit-text-fill-color: #fff;
+    border-bottom: 1px solid grey;
+    padding: .8em 1em;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1em;
+    cursor: pointer;
+}
+
+.spanned-child-ul>.client:last-child {
+    border-radius: 0 0 8px 8px;
+    border: none;
+}
+
+.client:hover,
+.client:focus,
+.client:active {
+    background: linear-gradient(90deg, rgba(64, 237, 195, 1) 0%, rgba(211, 248, 154, 1) 100%);
+    -webkit-text-fill-color: #000;
+}
+
+.active {
+    background: linear-gradient(90deg, rgba(64, 237, 195, 1) 0%, rgba(211, 248, 154, 1) 100%) !important;
+    -webkit-text-fill-color: #000;
+}
+
+#yield {
+    width: max-content;
+    margin: 0;
+    margin-inline: auto;
+    font-size: 5rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(90deg, rgba(64, 237, 195, 1) 0%, rgba(211, 248, 154, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.per-year {
+    margin: 0;
+    font-size: .9rem;
+    font-weight: normal;
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+}
+
+@media (max-width: 990px) {
+    .estimate {
+        font-size: 2rem;
+    }
+    .client {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .estimate {
+        font-size: 1.2rem;
+    }
+    .spanned-child {
+        left: -80%;
+        right: 70%;
+    }
+    .SEO {
+        left: 0%;
+    }
+    .spanned-child-ul {
+        min-width: 140px;
+    }
+    .client {
+        font-size: .8rem;
+    }
+    #yield {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 280px) {
+    .spanned-child {
+        left: -150%;
+        right: 0;
+    }
+    .SEO {
+        left: 50%;
+    }
+    .client {
+        font-size: .8rem;
+    }
+    .spanned-child-ul {
+        min-width: 140px;
+    }
+    #yield {
+        font-size: 2rem;
+    }
+    .per-year {
+        font-size: .7rem;
+    }
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for section, class: .elementor-element-05931a4 */
+
+.elementor-16535 .elementor-element.elementor-element-05931a4 {
+    border: 3px solid transparent;
+    background-color: #000 !important;
+    background: linear-gradient(to right bottom, #000000, #000000), linear-gradient(to right bottom, #40edc3, #d3f89a);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+
+/* End custom CSS */

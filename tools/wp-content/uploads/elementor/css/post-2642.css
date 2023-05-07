@@ -1,0 +1,117 @@
+.elementor-2642 .elementor-element.elementor-element-8ccae1c>.elementor-container {
+    max-width: 1440px;
+}
+
+.elementor-2642 .elementor-element.elementor-element-8ccae1c:not(.elementor-motion-effects-element-type-background),
+.elementor-2642 .elementor-element.elementor-element-8ccae1c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var( --e-global-color-primary);
+}
+
+.elementor-2642 .elementor-element.elementor-element-8ccae1c:hover {
+    background-color: var( --e-global-color-primary);
+    border-style: none;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.elementor-2642 .elementor-element.elementor-element-8ccae1c {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #111111;
+}
+
+.elementor-2642 .elementor-element.elementor-element-8ccae1c,
+.elementor-2642 .elementor-element.elementor-element-8ccae1c>.elementor-background-overlay {
+    border-radius: 16px 16px 16px 16px;
+}
+
+.elementor-2642 .elementor-element.elementor-element-8b9d265>.elementor-element-populated,
+.elementor-2642 .elementor-element.elementor-element-8b9d265>.elementor-element-populated>.elementor-background-overlay,
+.elementor-2642 .elementor-element.elementor-element-8b9d265>.elementor-background-slideshow {
+    border-radius: 16px 16px 16px 16px;
+}
+
+.elementor-2642 .elementor-element.elementor-element-8b9d265:hover>.elementor-element-populated {
+    border-style: none;
+}
+
+.elementor-2642 .elementor-element.elementor-element-8b9d265>.elementor-element-populated {
+    padding: 30px 30px 30px 30px;
+}
+
+.elementor-2642 .elementor-element.elementor-element-e44049c {
+    text-align: left;
+}
+
+.elementor-2642 .elementor-element.elementor-element-e44049c img {
+    width: 58px;
+}
+
+.elementor-2642 .elementor-element.elementor-element-eb75af0 .elementor-heading-title {
+    color: #FFFFFF00;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.elementor-2642 .elementor-element.elementor-element-eb75af0>.elementor-widget-container {
+    padding: 20px 0px 10px 0px;
+}
+
+.elementor-2642 .elementor-element.elementor-element-eac475c {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+@media(max-width:1024px) {
+    .elementor-2642 .elementor-element.elementor-element-8b9d265.elementor-column>.elementor-widget-wrap {
+        justify-content: center;
+    }
+    .elementor-2642 .elementor-element.elementor-element-e44049c {
+        text-align: left;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-2642 .elementor-element.elementor-element-8b9d265>.elementor-element-populated {
+        padding: 20px 20px 20px 20px;
+    }
+    .elementor-2642 .elementor-element.elementor-element-e44049c {
+        text-align: center;
+    }
+    .elementor-2642 .elementor-element.elementor-element-eb75af0 {
+        text-align: center;
+    }
+    .elementor-2642 .elementor-element.elementor-element-eac475c {
+        text-align: center;
+    }
+}
+
+/* Start custom CSS for heading, class: .elementor-element-eb75af0 */
+
+.elementor-2642 .elementor-element.elementor-element-eb75af0 {
+    background-image: linear-gradient(to right bottom, #40edc3, #d3f89a);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* End custom CSS */
+
+/* Start custom CSS for section, class: .elementor-element-8ccae1c */
+
+.elementor-2642 .elementor-element.elementor-element-8ccae1c {
+    border: 3px solid #111;
+}
+
+.elementor-2642 .elementor-element.elementor-element-8ccae1c:hover {
+    border: 3px solid transparent;
+    background-color: #000 !important;
+    background: linear-gradient(to right bottom, #000000, #000000), linear-gradient(to right bottom, #40edc3, #d3f89a);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+}
+
+/* End custom CSS */
